@@ -59,3 +59,44 @@ nav a:hover {
   background-color: #45a049;
 }
 
+.work {
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.work h2 {
+  font-size: 2rem;
+  margin-bottom: 40px;
+}
+
+.project-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 30px;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.project-card {
+  background: #f4f4f4;
+  border-radius: 8px;
+  overflow: hidden;
+  text-align: left;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.project-card img {
+  width: 100%;
+  display: block;
+}
+
+.project-card h3 {
+  margin: 15px;
+  font-size: 1.2rem;
+}
+
+.project-card p {
+  margin: 0 15px 15px;
+  color: #666;
+}
+
